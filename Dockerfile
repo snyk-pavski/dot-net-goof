@@ -1,4 +1,4 @@
-FROM ubuntu/dotnet-aspnet:5.0
+FROM aspnet:2.2.8-stretch-slim 
 WORKDIR /app
 COPY --from=build /app/publish .
 
