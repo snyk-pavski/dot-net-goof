@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS final
+FROM ubuntu/dotnet-aspnet:5.0 AS final
 WORKDIR /app
 COPY --from=build /app/publish .
 
