@@ -1,3 +1,3 @@
-FROM node:23.4.0
+FROM node:24.0.0
 
 RUN apt-get install -y imagemagick
